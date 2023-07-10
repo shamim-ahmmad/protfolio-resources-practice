@@ -1,6 +1,7 @@
 /* font style for all texts */
 body {
   font-family: "Open Sans", sans-serif;
+  /* background-color: #a51212; */
 }
 /* header section */
 
@@ -106,4 +107,40 @@ nav li a {
 main {
   max-width: 1140px;
   margin: 0px auto;
+}
+main section {
+  margin-top: 130px;
+}
+/* what i do  */
+.what-title {
+  text-align: center;
+  font-size: 35px;
+}
+.what-description {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400px;
+}
+.do-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.do-course {
+  width: 267px;
+  height: 377px;
+  border-radius: 5px;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.course-text {
+  color: var(--dark-03, #757575);
+  font-size: 16px;
+  font-weight: 400;
+}
+/* resume section  */
+.resume-container {
+  display: flex;
+  justify-content: space-between;
 }
